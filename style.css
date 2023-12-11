@@ -260,3 +260,20 @@
   .additional-info__languages-item {
     color: var(--secondary-text-color);
   }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .center {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+  }
